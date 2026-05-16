@@ -1,13 +1,7 @@
-import logging
-import re
 from pathlib import Path
-from typing import IO, List, Literal, Optional
+from typing import IO, List, Literal
 from zipfile import ZipFile
-from bs4 import BeautifulSoup, Tag
-
-ROW_HEADER_RIGHT = "rowHeaderRight"
-ROW_HEADER_LEFT = "rowHeaderLeft"
-VALUE_CELL = "valueCell"
+from parser.balance_sheet import parse_1210000, Row
 
 type BalanceSheet = Literal["1210000"]
 
@@ -58,140 +52,16 @@ class InlineXBRL:
 def extract_inlineXBRL_to_memory(
     filepath: str | Path,
     code: Code,
-    logger=logging.getLogger(__name__),
 ):
     with ZipFile(filepath, "r") as zip:
         for filename in zip.namelist():
             if filename != f"{code}.html":
-                logger.warning(f"{filename} does not match with {code}. skipped.")
                 continue
             with zip.open(filename) as f:
                 yield InlineXBRL(code=code, content=f)
 
 
-class ValueCell:
-    def __init__(
-        self,
-        context_ref: str,
-        decimals: int,
-        format: str,
-        id: str,
-        name: str,
-        scale: int,
-        unitref: str,
-        value: int,
-    ):
-        self.context_ref = context_ref
-        self.decimals = decimals
-        self.format = format
-        self.id = id
-        self.name = name
-        self.scale = scale
-        self.unitref = unitref
-        self.value = value
-
-
-class Row:
-    def __init__(
-        self,
-        left_header: str | None = None,
-        right_header: str | None = None,
-        value_cell: List[ValueCell] = [],
-        level=0,
-    ):
-        self.left_header = left_header
-        self.right_header = right_header
-        self.level = level
-        self.value_cells = value_cell
-        self.children: List[Row] = []
-
-    @staticmethod
-    def from_tr(tr: Tag):
-        tds = tr.find_all("td")
-        row = Row()
-        left_header: Tag | None = None
-        for td in tds:
-            cls = td.get("class")
-            if cls is None:
-                continue
-            if ROW_HEADER_LEFT in cls:
-                row.left_header = td.text
-                left_header = td
-                continue
-            if ROW_HEADER_RIGHT in cls:
-                row.right_header = td.text
-                continue
-            if VALUE_CELL in cls:
-                nonfraction = td.find("ix:nonfraction")
-                if nonfraction is None:
-                    continue
-                value_cell = ValueCell(
-                    context_ref=nonfraction.attrs.get("contextref"),
-                    decimals=nonfraction.attrs.get("decimals"),
-                    format=nonfraction.attrs.get("format"),
-                    id=nonfraction.attrs.get("id"),
-                    name=nonfraction.attrs.get("name"),
-                    scale=nonfraction.attrs.get("scale"),
-                    unitref=nonfraction.attrs.get("unitref"),
-                    value=nonfraction.text,
-                )
-                row.value_cells.append(value_cell)
-                continue
-        if row.left_header is None:
-            return None
-        left_style = left_header.get("style")
-        row.level = Row.__define_level(left_style)
-        return row
-
-    @staticmethod
-    def __define_level(style: str):
-        match = re.search(r"padding-left:\s*([\d.]+)\s*em", style)
-        if not match:
-            return 0
-
-        padding_value = float(match.group(1))
-
-        return int(padding_value / 1.5)
-
-
-type Parser = dict[Code, callable(IO[bytes]) : List[Row]]
-
-
-def parse_1210000(content: IO[bytes]):
-    s = BeautifulSoup(content, "xml")
-
-    trs = s.find_all("tr")
-
-    root: List[Row] = []
-    ancestors: List[Row] = []
-
-    for tr in trs:
-        row = Row.from_tr(tr)
-        if row is None:
-            continue
-
-        current_level = row.level
-
-        if current_level == 0:
-            root.append(row)
-        else:
-            if current_level - 1 < len(ancestors):
-                parent = ancestors[current_level - 1]
-                parent.children.append(row)
-            else:
-                root.append(row)
-
-        if current_level < len(ancestors):
-            ancestors[current_level] = row
-        else:
-            ancestors.append(row)
-
-        del ancestors[current_level + 1 :]
-
-    return root
-
-
-PARSER: Parser = {"1210000": parse_1210000}
+PARSER = {"1210000": parse_1210000}
 
 
 def parse_inlineXBRL(inlineXBRL: InlineXBRL) -> List[Row]:
