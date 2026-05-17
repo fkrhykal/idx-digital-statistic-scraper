@@ -23,17 +23,11 @@ class TestBalanceSheet(TestCase):
         for row in rows:
             print(row)
             spacing = "  " * indent
-            value = row.value_cells[0].value if len(row.value_cells) > 0 else None
+            cell = row.value_cells[0] if len(row.value_cells) > 0 else None
+            label = cell.name if cell is not None else row.header.left.label
             f.write(
-                f"{spacing}L {row.header.left.label} (Value {value}) (Level {row.level})\n"
+                f"{spacing}L {label} {cell.value if cell is not None else ''} (Level {row.level})\n"
             )
 
             if row.children:
                 self._write_node(row.children, f, indent + 1)
-
-    def print_tree(self, rows: List[Row], indent=0):
-        for row in rows:
-            spacing = "  " * indent
-            print(f"{spacing}L {row.left_header.label} (Level {row.level})")
-            if row.children:
-                self.print_tree(row.children, indent + 1)

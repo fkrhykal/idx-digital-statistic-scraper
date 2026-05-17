@@ -65,6 +65,7 @@ class ValueCell:
         self.unitref = unitref
         self.value = value
 
+    # TODO: perlu direfactor nanti, setidaknya kalau ketemu value cell selain nonfraction.
     @staticmethod
     def _get_value_kind(td: Tag):
         ix = td.find("ix:nonfraction")
@@ -72,6 +73,7 @@ class ValueCell:
             return None
         return ix
 
+    # TODO: perlu direfactor nanti, setidaknya kalau ketemu value cell selain nonfraction.
     @staticmethod
     def from_tag(td: Tag):
         ix = ValueCell._get_value_kind(td)

@@ -1,366 +1,366 @@
-L Aset  (Value None) (Level 0)
-  L Aset lancar  (Value None) (Level 1)
-    L Kas dan setara kas (Value 
+L Aset   (Level 0)
+  L Aset lancar   (Level 1)
+    L idx-cor:CashAndCashEquivalents 
            1,619,616 
-         ) (Level 2)
-    L Wesel tagih (Value ) (Level 2)
-    L Investasi jangka pendek (Value ) (Level 2)
-    L Dana yang dibatasi penggunaannya lancar (Value ) (Level 2)
-    L Aset keuangan lancar  (Value None) (Level 2)
-      L Aset keuangan lancar yang diukur pada nilai wajar melalui laba rugi (Value ) (Level 3)
-      L Aset keuangan lancar nilai wajar melalui pendapatan komprehensif lainnya (Value ) (Level 3)
-      L Aset keuangan biaya perolehan diamortisasi lancar (Value ) (Level 3)
-      L Aset keuangan lancar lainnya (Value ) (Level 3)
-    L Aset keuangan derivatif lancar (Value ) (Level 2)
-    L Piutang usaha  (Value None) (Level 2)
-      L Piutang usaha pihak ketiga (Value 
+          (Level 2)
+    L idx-cor:NotesReceivable  (Level 2)
+    L idx-cor:ShortTermInvestments  (Level 2)
+    L idx-cor:CurrentRestrictedFunds  (Level 2)
+    L Aset keuangan lancar   (Level 2)
+      L idx-cor:CurrentFinancialAssetsAtFairValueThroughProfitOrLoss  (Level 3)
+      L idx-cor:CurrentFinancialAssetsFairValueThroughOtherComprehensiveIncome  (Level 3)
+      L idx-cor:CurrentFinancialAssetsAmortizedCostInvestments  (Level 3)
+      L idx-cor:OtherCurrentFinancialAssets  (Level 3)
+    L idx-cor:CurrentDerivativeFinancialAssets  (Level 2)
+    L Piutang usaha   (Level 2)
+      L idx-cor:TradeReceivablesThirdParties 
            484,846 
-         ) (Level 3)
-      L Piutang usaha pihak berelasi (Value 
+          (Level 3)
+      L idx-cor:TradeReceivablesRelatedParties 
            363,924 
-         ) (Level 3)
-    L Piutang sewa pembiayaan lancar (Value ) (Level 2)
-    L Piutang retensi  (Value None) (Level 2)
-      L Piutang retensi pihak ketiga (Value ) (Level 3)
-      L Piutang retensi pihak berelasi (Value ) (Level 3)
-    L Tagihan bruto pemberi kerja  (Value None) (Level 2)
-      L Tagihan bruto pemberi kerja pihak ketiga (Value ) (Level 3)
-      L Tagihan bruto pemberi kerja pihak berelasi (Value ) (Level 3)
-    L Piutang subsidi (Value ) (Level 2)
-    L Piutang nasabah lancar  (Value None) (Level 2)
-      L Piutang nasabah lancar pihak ketiga (Value ) (Level 3)
-      L Piutang nasabah lancar pihak berelasi (Value ) (Level 3)
-    L Piutang margin (Value ) (Level 2)
-    L Piutang dari lembaga kliring dan penjaminan (Value ) (Level 2)
-    L Piutang premi dan reasuransi (Value ) (Level 2)
-    L Piutang dividen dan bunga (Value ) (Level 2)
-    L Piutang lainnya  (Value None) (Level 2)
-      L Piutang lainnya pihak ketiga (Value 
+          (Level 3)
+    L idx-cor:CurrentFinanceLeaseReceivables  (Level 2)
+    L Piutang retensi   (Level 2)
+      L idx-cor:RetentionReceivablesThirdParties  (Level 3)
+      L idx-cor:RetentionReceivablesRelatedParties  (Level 3)
+    L Tagihan bruto pemberi kerja   (Level 2)
+      L idx-cor:UnbilledReceivablesThirdParties  (Level 3)
+      L idx-cor:UnbilledReceivablesRelatedParties  (Level 3)
+    L idx-cor:ReceivablesOnSubsidy  (Level 2)
+    L Piutang nasabah lancar   (Level 2)
+      L idx-cor:CurrentCustomerReceivablesThirdParties  (Level 3)
+      L idx-cor:CurrentCustomerReceivablesRelatedParties  (Level 3)
+    L idx-cor:MarginReceivables  (Level 2)
+    L idx-cor:ReceivablesFromClearingAndSettlementGuaranteeInstitution  (Level 2)
+    L idx-cor:PremiumAndReinsuranceReceivables  (Level 2)
+    L idx-cor:DividendsAndInterestReceivables  (Level 2)
+    L Piutang lainnya   (Level 2)
+      L idx-cor:OtherReceivablesThirdParties 
            42,279 
-         ) (Level 3)
-      L Piutang lainnya pihak berelasi (Value 
+          (Level 3)
+      L idx-cor:OtherReceivablesRelatedParties 
            7,381 
-         ) (Level 3)
-    L Persediaan lancar  (Value None) (Level 2)
-      L Persediaan hewan ternak lancar (Value ) (Level 3)
-      L Aset real estat lancar (Value ) (Level 3)
-      L Persediaan lancar (Value 
+          (Level 3)
+    L Persediaan lancar   (Level 2)
+      L idx-cor:CurrentLivestockInventories  (Level 3)
+      L idx-cor:CurrentRealEstateAssets  (Level 3)
+      L idx-cor:CurrentInventories 
            3,273,597 
-         ) (Level 3)
-    L Aset biologis lancar (Value 
+          (Level 3)
+    L idx-cor:CurrentBiologicalAssets 
            121,609 
-         ) (Level 2)
-    L Biaya dibayar dimuka lancar (Value ) (Level 2)
-    L Jaminan lancar (Value ) (Level 2)
-    L Uang muka lancar  (Value None) (Level 2)
-      L Uang muka lancar atas investasi (Value ) (Level 3)
-      L Uang muka lancar atas pembelian aset tetap (Value ) (Level 3)
-      L Uang muka lancar lainnya (Value 
+          (Level 2)
+    L idx-cor:CurrentPrepaidExpenses  (Level 2)
+    L idx-cor:CurrentGuarantees  (Level 2)
+    L Uang muka lancar   (Level 2)
+      L idx-cor:CurrentAdvancesOnInvestments  (Level 3)
+      L idx-cor:CurrentAdvancesOnPurchaseOfPropertyPlantAndEquipment  (Level 3)
+      L idx-cor:OtherCurrentAdvances 
            68,385 
-         ) (Level 3)
-    L Pajak dibayar dimuka lancar (Value 
+          (Level 3)
+    L idx-cor:CurrentPrepaidTaxes 
            1,408,971 
-         ) (Level 2)
-    L Klaim atas pengembalian pajak lancar (Value ) (Level 2)
-    L Biaya pengupasan tanah yang ditangguhkan lancar (Value ) (Level 2)
-    L Biaya mobilisasi yang ditangguhkan lancar (Value ) (Level 2)
-    L Aset pengampunan pajak lancar (Value ) (Level 2)
-    L Aset non-keuangan lancar lainnya (Value ) (Level 2)
-    L Aset tidak lancar atau kelompok lepasan diklasifikasikan sebagai dimiliki untuk dijual (Value ) (Level 2)
-    L Aset tidak lancar atau kelompok lepasan diklasifikasikan sebagai dimiliki untuk didistribusikan kepada pemilik (Value ) (Level 2)
-    L Jumlah aset lancar (Value 
+          (Level 2)
+    L idx-cor:CurrentClaimsForTaxRefund  (Level 2)
+    L idx-cor:CurrentDeferredStrippingCosts  (Level 2)
+    L idx-cor:CurrentDeferredMobilisationCosts  (Level 2)
+    L idx-cor:CurrentTaxAmnestyAssets  (Level 2)
+    L idx-cor:OtherCurrentNonFinancialAssets  (Level 2)
+    L idx-cor:NonCurrentAssetsOrDisposalGroupsClassifiedAsHeldForSale  (Level 2)
+    L idx-cor:NonCurrentAssetsOrDisposalGroupsClassifiedAsHeldForDistributionToOwners  (Level 2)
+    L idx-cor:CurrentAssets 
            7,390,608 
-         ) (Level 2)
-  L Aset tidak lancar  (Value None) (Level 1)
-    L Piutang sewa pembiayaan tidak lancar (Value ) (Level 2)
-    L Dana yang dibatasi penggunaannya tidak lancar (Value ) (Level 2)
-    L Dana cadangan perawatan pesawat (Value ) (Level 2)
-    L Piutang dari pihak berelasi (Value ) (Level 2)
-    L Piutang dari pemegang saham (Value ) (Level 2)
-    L Piutang nasabah tidak lancar  (Value None) (Level 2)
-      L Piutang nasabah tidak lancar pihak ketiga (Value ) (Level 3)
-      L Piutang nasabah tidak lancar pihak berelasi (Value ) (Level 3)
-    L Piutang tidak lancar lainnya  (Value None) (Level 2)
-      L Piutang tidak lancar lainnya pihak ketiga (Value 
+          (Level 2)
+  L Aset tidak lancar   (Level 1)
+    L idx-cor:NonCurrentFinanceLeaseReceivables  (Level 2)
+    L idx-cor:NonCurrentRestrictedFunds  (Level 2)
+    L idx-cor:AircraftMaintenanceReserveFunds  (Level 2)
+    L idx-cor:ReceivablesFromRelatedParties  (Level 2)
+    L idx-cor:ReceivablesFromStockholders  (Level 2)
+    L Piutang nasabah tidak lancar   (Level 2)
+      L idx-cor:NonCurrentCustomerReceivablesThirdParties  (Level 3)
+      L idx-cor:NonCurrentCustomerReceivablesRelatedParties  (Level 3)
+    L Piutang tidak lancar lainnya   (Level 2)
+      L idx-cor:OtherNonCurrentReceivablesThirdParties 
            0 
-         ) (Level 3)
-      L Piutang tidak lancar lainnya pihak berelasi (Value 
+          (Level 3)
+      L idx-cor:OtherNonCurrentReceivablesRelatedParties 
            220,723 
-         ) (Level 3)
-    L Investasi yang dicatat dengan menggunakan metode ekuitas (Value ) (Level 2)
-    L Investasi pada ventura bersama dan entitas asosiasi  (Value None) (Level 2)
-      L Investasi pada entitas ventura bersama (Value 
+          (Level 3)
+    L idx-cor:InvestmentsAccountedForUsingEquityMethod  (Level 2)
+    L Investasi pada ventura bersama dan entitas asosiasi   (Level 2)
+      L idx-cor:InvestmentsInJointVentures 
            546,531 
-         ) (Level 3)
-      L Investasi pada entitas asosiasi (Value ) (Level 3)
-    L Jaminan tidak lancar (Value ) (Level 2)
-    L Uang muka tidak lancar  (Value None) (Level 2)
-      L Uang muka tidak lancar atas investasi (Value ) (Level 3)
-      L Uang muka tidak lancar atas pembelian aset tetap (Value ) (Level 3)
-      L Uang muka tidak lancar lainnya (Value ) (Level 3)
-    L Aset keuangan tidak lancar  (Value None) (Level 2)
-      L Aset keuangan tidak lancar yang diukur pada nilai wajar melalui laba rugi (Value ) (Level 3)
-      L Aset keuangan tidak lancar nilai wajar melalui pendapatan komprehensif lainnya (Value ) (Level 3)
-      L Aset keuangan tidak lancar biaya perolehan diamortisasi (Value ) (Level 3)
-      L Aset keuangan tidak lancar lainnya (Value ) (Level 3)
-    L Aset keuangan derivatif tidak lancar (Value ) (Level 2)
-    L Biaya dibayar dimuka tidak lancar (Value ) (Level 2)
-    L Pajak dibayar dimuka tidak lancar (Value ) (Level 2)
-    L Aset pajak tangguhan (Value 
+          (Level 3)
+      L idx-cor:InvestmentsInAssociates  (Level 3)
+    L idx-cor:NonCurrentGuarantees  (Level 2)
+    L Uang muka tidak lancar   (Level 2)
+      L idx-cor:NonCurrentAdvancesOnInvestments  (Level 3)
+      L idx-cor:NonCurrentAdvancesOnPurchaseOfPropertyPlantAndEquipment  (Level 3)
+      L idx-cor:OtherNonCurrentAdvances  (Level 3)
+    L Aset keuangan tidak lancar   (Level 2)
+      L idx-cor:NonCurrentFinancialAssetsAtFairValueThroughProfitOrLoss  (Level 3)
+      L idx-cor:NonCurrentFinancialAssetsFairValueThroughOtherComprehensiveIncome  (Level 3)
+      L idx-cor:NonCurrentFinancialAssetsAmortizedCost  (Level 3)
+      L idx-cor:OtherNonCurrentFinancialAssets  (Level 3)
+    L idx-cor:NonCurrentDerivativeFinancialAssets  (Level 2)
+    L idx-cor:NonCurrentPrepaidExpenses  (Level 2)
+    L idx-cor:NonCurrentPrepaidTaxes  (Level 2)
+    L idx-cor:DeferredTaxAssets 
            551,273 
-         ) (Level 2)
-    L Persediaan tidak lancar  (Value None) (Level 2)
-      L Persediaan hewan ternak tidak lancar (Value ) (Level 3)
-      L Aset real estat tidak lancar (Value ) (Level 3)
-      L Persediaan tidak lancar lainnya (Value ) (Level 3)
-    L Hewan ternak produksi (Value ) (Level 2)
-    L Hutan tanaman industri  (Value None) (Level 2)
-      L Hutan tanaman industri menghasilkan (Value ) (Level 3)
-      L Hutan tanaman industri belum menghasilkan (Value ) (Level 3)
-    L Tanaman perkebunan  (Value None) (Level 2)
-      L Tanaman perkebunan menghasilkan (Value 
+          (Level 2)
+    L Persediaan tidak lancar   (Level 2)
+      L idx-cor:NonCurrentLivestockInventories  (Level 3)
+      L idx-cor:NonCurrentRealEstateAssets  (Level 3)
+      L idx-cor:NonCurrentInventories  (Level 3)
+    L idx-cor:LivestockProduction  (Level 2)
+    L Hutan tanaman industri   (Level 2)
+      L idx-cor:IndustrialTimberPlantationsMature  (Level 3)
+      L idx-cor:IndustrialTimberPlantationsImmature  (Level 3)
+    L Tanaman perkebunan   (Level 2)
+      L idx-cor:PlantationAssetsMature 
            5,674,297 
-         ) (Level 3)
-      L Tanaman perkebunan belum menghasilkan (Value 
+          (Level 3)
+      L idx-cor:PlantationAssetsImmature 
            1,635,923 
-         ) (Level 3)
-    L Aset biologis tidak lancar (Value ) (Level 2)
-    L Perkebunan plasma (Value 
+          (Level 3)
+    L idx-cor:Non-CurrentBiologicalAssets  (Level 2)
+    L idx-cor:PlasmaPlantations 
            1,581,302 
-         ) (Level 2)
-    L Aset reasuransi (Value ) (Level 2)
-    L Properti investasi (Value ) (Level 2)
-    L Tanah Belum Dikembangkan (Value ) (Level 2)
-    L Aset tetap (Value 
+          (Level 2)
+    L idx-cor:ReinsuranceAssets  (Level 2)
+    L idx-cor:InvestmentProperties  (Level 2)
+    L idx-cor:UndevelopedLand  (Level 2)
+    L idx-cor:PropertyPlantAndEquipment 
            9,104,799 
-         ) (Level 2)
-    L Aset hak guna (Value ) (Level 2)
-    L Aset ijarah (Value ) (Level 2)
-    L Agunan yang diambil alih (Value ) (Level 2)
-    L Aset minyak dan gas bumi (Value ) (Level 2)
-    L Aset eksplorasi dan evaluasi (Value ) (Level 2)
-    L Hak konsesi jalan tol (Value ) (Level 2)
-    L Properti pertambangan (Value ) (Level 2)
-    L Biaya pengupasan tanah yang ditangguhkan tidak lancar (Value ) (Level 2)
-    L Biaya mobilisasi yang ditangguhkan tidak lancar (Value ) (Level 2)
-    L Beban tangguhan  (Value None) (Level 2)
-      L Beban tangguhan hak atas tanah dan bangunan (Value ) (Level 3)
-      L Beban tangguhan atas biaya eksplorasi dan pengembangan (Value ) (Level 3)
-      L Beban tangguhan atas biaya pengelolaan hak pengusahaan hutan (Value ) (Level 3)
-      L Beban tangguhan atas biaya pengelolaan dan reklamasi lingkungan hidup (Value ) (Level 3)
-      L Beban tangguhan lainnya (Value ) (Level 3)
-    L Klaim atas pengembalian pajak tidak lancar (Value 
+          (Level 2)
+    L idx-cor:RightOfUseAssets  (Level 2)
+    L idx-cor:IjarahAssets  (Level 2)
+    L idx-cor:ForeclosedAssets  (Level 2)
+    L idx-cor:OilAndGasAssets  (Level 2)
+    L idx-cor:ExplorationAndEvaluationAssets  (Level 2)
+    L idx-cor:TollRoadConcessionRights  (Level 2)
+    L idx-cor:MiningProperties  (Level 2)
+    L idx-cor:NonCurrentDeferredStrippingCosts  (Level 2)
+    L idx-cor:NonCurrentDeferredMobilisationCosts  (Level 2)
+    L Beban tangguhan   (Level 2)
+      L idx-cor:DeferredChargesOnLandrights  (Level 3)
+      L idx-cor:DeferredChargesOnExplorationAndDevelopmentExpenditures  (Level 3)
+      L idx-cor:DeferredChargesOnCostOnForest  (Level 3)
+      L idx-cor:DeferredChargesOnEnvironmentalAndReclamationExpenditures  (Level 3)
+      L idx-cor:OtherDeferredCharges  (Level 3)
+    L idx-cor:NonCurrentClaimsForTaxRefund 
            2,234,602 
-         ) (Level 2)
-    L Aset imbalan pasca kerja (Value ) (Level 2)
-    L Goodwill (Value 
+          (Level 2)
+    L idx-cor:PostEmploymentBenefitAssets  (Level 2)
+    L idx-cor:Goodwill 
            55,951 
-         ) (Level 2)
-    L Aset takberwujud selain goodwill (Value ) (Level 2)
-    L Aset pengampunan pajak tidak lancar (Value ) (Level 2)
-    L Aset tidak lancar non-keuangan lainnya (Value 
+          (Level 2)
+    L idx-cor:IntangibleAssetsOtherThanGoodwill  (Level 2)
+    L idx-cor:NonCurrentTaxAmnestyAssets  (Level 2)
+    L idx-cor:OtherNonCurrentNonFinancialAssets 
            253,331 
-         ) (Level 2)
-    L Jumlah aset tidak lancar (Value 
+          (Level 2)
+    L idx-cor:NonCurrentAssets 
            21,858,732 
-         ) (Level 2)
-  L Jumlah aset (Value 
+          (Level 2)
+  L idx-cor:Assets 
            29,249,340 
-         ) (Level 1)
-L Liabilitas dan ekuitas  (Value None) (Level 0)
-  L Liabilitas  (Value None) (Level 1)
-    L Liabilitas jangka pendek  (Value None) (Level 2)
-      L Utang bank jangka pendek (Value ) (Level 3)
-      L Utang trust receipts (Value ) (Level 3)
-      L Utang usaha  (Value None) (Level 3)
-        L Utang usaha pihak ketiga (Value 
+          (Level 1)
+L Liabilitas dan ekuitas   (Level 0)
+  L Liabilitas   (Level 1)
+    L Liabilitas jangka pendek   (Level 2)
+      L idx-cor:ShortTermBankLoans  (Level 3)
+      L idx-cor:TrustReceiptsPayables  (Level 3)
+      L Utang usaha   (Level 3)
+        L idx-cor:TradePayablesThirdParties 
            1,162,333 
-         ) (Level 4)
-        L Utang usaha pihak berelasi (Value 
+          (Level 4)
+        L idx-cor:TradePayablesRelatedParties 
            62,090 
-         ) (Level 4)
-      L Utang lainnya  (Value None) (Level 3)
-        L Utang lainnya pihak ketiga (Value 
+          (Level 4)
+      L Utang lainnya   (Level 3)
+        L idx-cor:OtherPayablesThirdParties 
            213,855 
-         ) (Level 4)
-        L Utang lainnya pihak berelasi (Value 
+          (Level 4)
+        L idx-cor:OtherPayablesRelatedParties 
            0 
-         ) (Level 4)
-      L Uang muka pelanggan jangka pendek  (Value None) (Level 3)
-        L Uang muka pelanggan jangka pendek pihak ketiga (Value 
+          (Level 4)
+      L Uang muka pelanggan jangka pendek   (Level 3)
+        L idx-cor:CurrentAdvancesFromCustomersThirdParties 
            202,803 
-         ) (Level 4)
-        L Uang muka pelanggan jangka pendek pihak berelasi (Value 
+          (Level 4)
+        L idx-cor:CurrentAdvancesFromCustomersRelatedParties 
            4 
-         ) (Level 4)
-      L Utang dividen (Value ) (Level 3)
-      L Liabilitas keuangan jangka pendek lainnya (Value ) (Level 3)
-      L Beban akrual jangka pendek (Value 
+          (Level 4)
+      L idx-cor:DividendsPayable  (Level 3)
+      L idx-cor:OtherCurrentFinancialLiabilities  (Level 3)
+      L idx-cor:CurrentAccruedExpenses 
            96,012 
-         ) (Level 3)
-      L Liabilitas imbalan pasca kerja jangka pendek (Value 
+          (Level 3)
+      L idx-cor:ShortTermPostEmploymentBenefitObligations 
            84,860 
-         ) (Level 3)
-      L Utang pajak (Value 
+          (Level 3)
+      L idx-cor:TaxesPayable 
            225,982 
-         ) (Level 3)
-      L Utang cukai (Value ) (Level 3)
-      L Utang proyek (Value ) (Level 3)
-      L Utang kepada lembaga kliring dan penjaminan (Value ) (Level 3)
-      L Utang nasabah  (Value None) (Level 3)
-        L Utang nasabah pihak ketiga (Value ) (Level 4)
-        L Utang nasabah pihak berelasi (Value ) (Level 4)
-      L Utang koasuransi (Value ) (Level 3)
-      L Utang reasuransi (Value ) (Level 3)
-      L Liabilitas anjak piutang (Value ) (Level 3)
-      L Uang jaminan jangka pendek (Value ) (Level 3)
-      L Pendapatan diterima dimuka jangka pendek (Value ) (Level 3)
-      L Liabilitas bruto kepada pemberi kerja  (Value None) (Level 3)
-        L Liabilitas bruto kepada pemberi kerja pihak ketiga (Value ) (Level 4)
-        L Liabilitas bruto kepada pemberi kerja pihak berelasi (Value ) (Level 4)
-      L Pendapatan ditangguhkan jangka pendek (Value ) (Level 3)
-      L Provisi jangka pendek  (Value None) (Level 3)
-        L Provisi jangka pendek pelapisan jalan tol (Value ) (Level 4)
-        L Provisi jangka pendek biaya pengembalian dan pemeliharaan pesawat (Value ) (Level 4)
-        L Provisi jangka pendek pembangunan prasarana, fasilitas umum, dan sosial (Value ) (Level 4)
-        L Provisi jangka pendek biaya pembongkaran aset tetap (Value ) (Level 4)
-        L Provisi jangka pendek restorasi dan rehabilitasi (Value ) (Level 4)
-        L Provisi jangka pendek lainnya (Value ) (Level 4)
-      L Liabilitas pembayaran berbasis saham (Value ) (Level 3)
-      L Kontrak liabilitas jangka pendek (Value ) (Level 3)
-      L Liabilitas yang secara langsung berhubungan dengan aset tidak lancar atau kelompok lepasan yang diklasifikasikan sebagai dimiliki untuk dijual atau dimiliki untuk didistribusikan kepada pemilik (Value ) (Level 3)
-      L Liabilitas jangka panjang yang jatuh tempo dalam satu tahun  (Value None) (Level 3)
-        L Liabilitas jangka panjang yang jatuh tempo dalam satu tahun atas utang bank (Value 
+          (Level 3)
+      L idx-cor:ExcisePayable  (Level 3)
+      L idx-cor:ProjectPayables  (Level 3)
+      L idx-cor:PayablesToClearingAndSettlementGuaranteeInstitution  (Level 3)
+      L Utang nasabah   (Level 3)
+        L idx-cor:PayablesToCustomersThirdParties  (Level 4)
+        L idx-cor:PayablesToCustomersRelatedParties  (Level 4)
+      L idx-cor:CoinsuranceLiabilities  (Level 3)
+      L idx-cor:ReinsurancePayables  (Level 3)
+      L idx-cor:FactoringPayables  (Level 3)
+      L idx-cor:CurrentDeposits  (Level 3)
+      L idx-cor:CurrentUnearnedRevenue  (Level 3)
+      L Liabilitas bruto kepada pemberi kerja   (Level 3)
+        L idx-cor:DueToCustomersThirdParties  (Level 4)
+        L idx-cor:DueToCustomersRelatedParties  (Level 4)
+      L idx-cor:CurrentDeferredRevenue  (Level 3)
+      L Provisi jangka pendek   (Level 3)
+        L idx-cor:CurrentProvisionsForOverlay  (Level 4)
+        L idx-cor:CurrentProvisionsForAircraftReturnAndMaintenanceFunds  (Level 4)
+        L idx-cor:CurrentProvisionsForInfrastructureDevelopmentPublicAndSocialFacilities  (Level 4)
+        L idx-cor:CurrentProvisionsForAssetDismantlingCosts  (Level 4)
+        L idx-cor:CurrentProvisionsForRestorationAndRehabilitation  (Level 4)
+        L idx-cor:OtherCurrentProvisions  (Level 4)
+      L idx-cor:ShareBasedPaymentLiabilities  (Level 3)
+      L idx-cor:CurrentContractLiabilities  (Level 3)
+      L idx-cor:LiabilitiesDirectlyAssociatedWithNonCurrentAssetsOrDisposalGroupsClassifiedAsHeldForSaleOrAsHeldForDistributionToOwners  (Level 3)
+      L Liabilitas jangka panjang yang jatuh tempo dalam satu tahun   (Level 3)
+        L idx-cor:CurrentMaturitiesOfBankLoans 
            5,000 
-         ) (Level 4)
-        L Liabilitas jangka panjang yang jatuh tempo dalam satu tahun atas utang keuangan keuangan non bank (Value ) (Level 4)
-        L Liabilitas jangka panjang yang jatuh tempo dalam satu tahun atas pinjaman beragunan (Value ) (Level 4)
-        L Liabilitas jangka panjang yang jatuh tempo dalam satu tahun atas pinjaman tanpa agunan (Value ) (Level 4)
-        L Liabilitas jangka panjang yang jatuh tempo dalam satu tahun atas penerusan pinjaman (Value ) (Level 4)
-        L Liabilitas jangka panjang yang jatuh tempo dalam satu tahun atas pinjaman dari pemerintah republik Indonesia (Value ) (Level 4)
-        L Liabilitas jangka panjang yang jatuh tempo dalam satu tahun atas pinjaman subordinasi (Value ) (Level 4)
-        L Liabilitas jangka panjang yang jatuh tempo dalam satu tahun atas liabilitas kerja sama operasi (Value ) (Level 4)
-        L Liabilitas jangka panjang yang jatuh tempo dalam satu tahun atas liabilitas pembebasan tanah (Value ) (Level 4)
-        L Liabilitas jangka panjang yang jatuh tempo dalam satu tahun atas utang pembiayaan konsumen (Value ) (Level 4)
-        L Liabilitas jangka panjang yang jatuh tempo dalam satu tahun atas liabilitas sewa pembiayaan (Value ) (Level 4)
-        L Liabilitas jangka panjang yang jatuh tempo dalam satu tahun atas utang listrik swasta (Value ) (Level 4)
-        L Liabilitas jangka panjang yang jatuh tempo dalam satu tahun atas utang retensi (Value ) (Level 4)
-        L Liabilitas jangka panjang yang jatuh tempo dalam satu tahun atas wesel bayar (Value ) (Level 4)
-        L Liabilitas jangka panjang yang jatuh tempo dalam satu tahun atas surat utang jangka menengah (Value ) (Level 4)
-        L Liabilitas jangka panjang yang jatuh tempo dalam satu tahun atas utang obligasi (Value ) (Level 4)
-        L Liabilitas jangka panjang yang jatuh tempo dalam satu tahun atas sukuk (Value ) (Level 4)
-        L Liabilitas jangka panjang yang jatuh tempo dalam satu tahun atas obligasi subordinasi (Value ) (Level 4)
-        L Liabilitas jangka panjang yang jatuh tempo dalam satu tahun atas pinjaman lainnya (Value ) (Level 4)
-      L Utang pihak berelasi jangka pendek (Value ) (Level 3)
-      L Utang pemegang saham jangka pendek (Value ) (Level 3)
-      L Liabilitas keuangan derivatif jangka pendek (Value ) (Level 3)
-      L Liabilitas pengampunan pajak lancar (Value ) (Level 3)
-      L Liabilitas non-keuangan jangka pendek lainnya (Value ) (Level 3)
-      L Jumlah liabilitas jangka pendek (Value 
+          (Level 4)
+        L idx-cor:CurrentMaturitiesOfNon-BankFinancialInstitutionsLoan  (Level 4)
+        L idx-cor:CurrentMaturitiesOfSecuredLoans  (Level 4)
+        L idx-cor:CurrentMaturitiesOfUnsecuredLoans  (Level 4)
+        L idx-cor:CurrentMaturitiesOfStepLoans  (Level 4)
+        L idx-cor:CurrentMaturitiesOfLoansFromGovernmentOfTheRepublicOfIndonesia  (Level 4)
+        L idx-cor:CurrentMaturitiesOfSubordinatedLoans  (Level 4)
+        L idx-cor:CurrentMaturitiesOfJointOperationsLiabilities  (Level 4)
+        L idx-cor:CurrentMaturitiesOfLandAcquisitionLiabilities  (Level 4)
+        L idx-cor:CurrentMaturitiesOfConsumerFinancingPayables  (Level 4)
+        L idx-cor:CurrentMaturitiesOfFinanceLeaseLiabilities  (Level 4)
+        L idx-cor:CurrentMaturitiesOfElectricityPurchasePayables  (Level 4)
+        L idx-cor:CurrentMaturitiesOfRetentionPayables  (Level 4)
+        L idx-cor:CurrentMaturitiesOfNotesPayable  (Level 4)
+        L idx-cor:CurrentMaturitiesOfMediumTermNotes  (Level 4)
+        L idx-cor:CurrentMaturitiesOfBondsPayable  (Level 4)
+        L idx-cor:CurrentMaturitiesOfSukuk  (Level 4)
+        L idx-cor:CurrentMaturitiesOfSubordinatedBonds  (Level 4)
+        L idx-cor:CurrentMaturitiesOfOtherBorrowings  (Level 4)
+      L idx-cor:CurrentDueToRelatedParties  (Level 3)
+      L idx-cor:CurrentDueToStockholders  (Level 3)
+      L idx-cor:ShortTermDerivativeFinancialLiabilities  (Level 3)
+      L idx-cor:CurrentTaxAmnestyLiabilities  (Level 3)
+      L idx-cor:OtherCurrentNonFinancialLiabilities  (Level 3)
+      L idx-cor:CurrentLiabilities 
            2,052,939 
-         ) (Level 3)
-    L Liabilitas jangka panjang  (Value None) (Level 2)
-      L Liabilitas keuangan derivatif jangka panjang (Value ) (Level 3)
-      L Liabilitas pajak tangguhan (Value 
+          (Level 3)
+    L Liabilitas jangka panjang   (Level 2)
+      L idx-cor:LongTermDerivativeFinancialLiabilities  (Level 3)
+      L idx-cor:DeferredTaxLiabilities 
            221,288 
-         ) (Level 3)
-      L Utang pihak berelasi jangka panjang (Value ) (Level 3)
-      L Utang pemegang saham jangka panjang (Value ) (Level 3)
-      L Kontrak liabilitas jangka panjang (Value ) (Level 3)
-      L Liabilitas jangka panjang setelah dikurangi bagian yang jatuh tempo dalam satu tahun  (Value None) (Level 3)
-        L Liabilitas jangka panjang atas utang bank (Value 
+          (Level 3)
+      L idx-cor:NonCurrentDueToRelatedParties  (Level 3)
+      L idx-cor:NonCurrentDueToStockholders  (Level 3)
+      L idx-cor:Non-CurrentContractLiabilities  (Level 3)
+      L Liabilitas jangka panjang setelah dikurangi bagian yang jatuh tempo dalam satu tahun   (Level 3)
+        L idx-cor:LongTermBankLoans 
            4,048,767 
-         ) (Level 4)
-        L Utang lembaga keuangan non-bank (Value ) (Level 4)
-        L Liabilitas jangka panjang atas penerusan pinjaman (Value ) (Level 4)
-        L Liabilitas jangka panjang atas pinjaman beragunan (Value ) (Level 4)
-        L Liabilitas jangka panjang atas pinjaman tanpa agunan (Value ) (Level 4)
-        L Liabilitas jangka panjang atas pinjaman dari pemerintah republik Indonesia (Value ) (Level 4)
-        L Liabilitas jangka panjang atas pinjaman subordinasi (Value ) (Level 4)
-        L Liabilitas jangka panjang atas liabilitas kerja sama operasi (Value ) (Level 4)
-        L Liabilitas jangka panjang atas liabilitas pembebasan tanah (Value ) (Level 4)
-        L Liabilitas jangka panjang atas utang pembiayaan konsumen (Value ) (Level 4)
-        L Liabilitas jangka panjang atas liabilitas sewa pembiayaan (Value ) (Level 4)
-        L Liabilitas jangka panjang atas utang listrik swasta (Value ) (Level 4)
-        L Liabilitas jangka panjang atas utang retensi (Value ) (Level 4)
-        L Liabilitas jangka panjang atas wesel bayar (Value ) (Level 4)
-        L Liabilitas jangka panjang atas surat utang jangka menengah (Value ) (Level 4)
-        L Liabilitas jangka panjang atas utang obligasi (Value ) (Level 4)
-        L Liabilitas jangka panjang atas sukuk (Value ) (Level 4)
-        L Liabilitas jangka panjang atas obligasi subordinasi (Value ) (Level 4)
-        L Liabilitas jangka panjang atas pinjaman lainnya (Value ) (Level 4)
-      L Obligasi konversi (Value ) (Level 3)
-      L Pendapatan diterima dimuka jangka panjang (Value ) (Level 3)
-      L Uang jaminan jangka panjang (Value ) (Level 3)
-      L Uang muka pelanggan jangka panjang  (Value None) (Level 3)
-        L Uang muka pelanggan jangka panjang pihak ketiga (Value ) (Level 4)
-        L Uang muka pelanggan jangka panjang pihak berelasi (Value ) (Level 4)
-      L Pendapatan ditangguhkan jangka panjang (Value ) (Level 3)
-      L Liabilitas kontrak asuransi (Value ) (Level 3)
-      L Provisi jangka panjang  (Value None) (Level 3)
-        L Provisi pelapisan jalan tol jangka panjang (Value ) (Level 4)
-        L Provisi biaya pengembalian dan pemeliharaan pesawat jangka panjang (Value ) (Level 4)
-        L Provisi pembangunan prasarana, fasilitas umum, dan sosial jangka panjang (Value ) (Level 4)
-        L Provisi biaya pembongkaran aset tetap jangka panjang (Value ) (Level 4)
-        L Provisi restorasi dan rehabilitasi jangka panjang (Value ) (Level 4)
-        L Provisi jangka panjang lainnya (Value ) (Level 4)
-      L Biaya pengupasan tanah yang masih harus dibayar (Value ) (Level 3)
-      L Liabilitas kepada pemegang polis (Value ) (Level 3)
-      L Kewajiban imbalan pasca kerja jangka panjang (Value 
+          (Level 4)
+        L idx-cor:LongTermNon-BankFinancialInstitutionsLoan  (Level 4)
+        L idx-cor:LongTermStepLoans  (Level 4)
+        L idx-cor:LongTermSecuredLoans  (Level 4)
+        L idx-cor:LongTermUnsecuredLoans  (Level 4)
+        L idx-cor:LongTermLoansFromGovernmentOfTheRepublicOfIndonesia  (Level 4)
+        L idx-cor:LongTermSubordinatedLoans  (Level 4)
+        L idx-cor:LongTermJointOperationsLiabilities  (Level 4)
+        L idx-cor:LongTermLandAcquisitionLiabilities  (Level 4)
+        L idx-cor:LongTermConsumerFinancingPayables  (Level 4)
+        L idx-cor:LongTermFinanceLeaseLiabilities  (Level 4)
+        L idx-cor:LongTermElectricityPurchasePayables  (Level 4)
+        L idx-cor:LongTermRetentionPayables  (Level 4)
+        L idx-cor:LongTermNotesPayable  (Level 4)
+        L idx-cor:LongTermMediumTermNotes  (Level 4)
+        L idx-cor:LongTermBondsPayable  (Level 4)
+        L idx-cor:LongTermSukuk  (Level 4)
+        L idx-cor:LongTermSubordinatedBonds  (Level 4)
+        L idx-cor:LongTermOtherBorrowings  (Level 4)
+      L idx-cor:ConvertibleBonds  (Level 3)
+      L idx-cor:NonCurrentUnearnedRevenue  (Level 3)
+      L idx-cor:NonCurrentDeposits  (Level 3)
+      L Uang muka pelanggan jangka panjang   (Level 3)
+        L idx-cor:NonCurrentAdvancesFromCustomersThirdParties  (Level 4)
+        L idx-cor:NonCurrentAdvancesFromCustomersRelatedParties  (Level 4)
+      L idx-cor:NonCurrentDeferredRevenue  (Level 3)
+      L idx-cor:InsuranceContractLiabilities  (Level 3)
+      L Provisi jangka panjang   (Level 3)
+        L idx-cor:NonCurrentProvisionsForOverlay  (Level 4)
+        L idx-cor:NonCurrentProvisionsForAircraftReturnAndMaintenanceFunds  (Level 4)
+        L idx-cor:NonCurrentProvisionsForInfrastructureDevelopmentPublicAndSocialFacilities  (Level 4)
+        L idx-cor:NonCurrentProvisionsForAssetDismantlingCosts  (Level 4)
+        L idx-cor:NonCurrentProvisionsForRestorationAndRehabilitation  (Level 4)
+        L idx-cor:OtherNonCurrentProvisions  (Level 4)
+      L idx-cor:AccruedStrippingCosts  (Level 3)
+      L idx-cor:LiabilitiesToPolicyholders  (Level 3)
+      L idx-cor:LongTermPostEmploymentBenefitObligations 
            466,322 
-         ) (Level 3)
-      L Liabilitas pengampunan pajak tidak lancar (Value ) (Level 3)
-      L Liabilitas keuangan jangka panjang lainnya (Value 
+          (Level 3)
+      L idx-cor:NonCurrentTaxAmnestyLiabilities  (Level 3)
+      L idx-cor:OtherNonCurrentFinancialLiabilities 
            216,803 
-         ) (Level 3)
-      L Liabilitas non-keuangan jangka panjang (Value ) (Level 3)
-      L Jumlah liabilitas jangka panjang (Value 
+          (Level 3)
+      L idx-cor:OtherNonCurrentNonFinancialLiabilities  (Level 3)
+      L idx-cor:NonCurrentLiabilities 
            4,953,180 
-         ) (Level 3)
-    L Jumlah liabilitas (Value 
+          (Level 3)
+    L idx-cor:Liabilities 
            7,006,119 
-         ) (Level 2)
-  L Ekuitas  (Value None) (Level 1)
-    L Ekuitas yang diatribusikan kepada pemilik entitas induk  (Value None) (Level 2)
-      L Saham biasa (Value 
+          (Level 2)
+  L Ekuitas   (Level 1)
+    L Ekuitas yang diatribusikan kepada pemilik entitas induk   (Level 2)
+      L idx-cor:CommonStocks 
            962,344 
-         ) (Level 3)
-      L Saham preferen (Value ) (Level 3)
-      L Tambahan modal disetor (Value 
+          (Level 3)
+      L idx-cor:PreferredStocks  (Level 3)
+      L idx-cor:AdditionalPaidInCapital 
            3,878,995 
-         ) (Level 3)
-      L Saham treasuri (Value ) (Level 3)
-      L Uang muka setoran modal (Value ) (Level 3)
-      L Opsi saham (Value ) (Level 3)
-      L Cadangan revaluasi (Value ) (Level 3)
-      L Cadangan selisih kurs penjabaran (Value ) (Level 3)
-      L Cadangan perubahan nilai wajar aset keuangan nilai wajar melalui pendapatan komprehensif lainnya (Value ) (Level 3)
-      L Cadangan keuntungan (kerugian) investasi pada instrumen ekuitas (Value ) (Level 3)
-      L Cadangan pembayaran berbasis saham (Value ) (Level 3)
-      L Cadangan lindung nilai arus kas (Value ) (Level 3)
-      L Cadangan pengukuran kembali program imbalan pasti (Value ) (Level 3)
-      L Cadangan lainnya (Value ) (Level 3)
-      L Selisih Transaksi Perubahan Ekuitas Entitas Anak/Asosiasi (Value ) (Level 3)
-      L Komponen ekuitas lainnya (Value 
+          (Level 3)
+      L idx-cor:TreasuryStocks  (Level 3)
+      L idx-cor:AdvancesInCapitalStock  (Level 3)
+      L idx-cor:StockOptions  (Level 3)
+      L idx-cor:RevaluationReserves  (Level 3)
+      L idx-cor:ReserveOfExchangeDifferencesOnTranslation  (Level 3)
+      L idx-cor:ReserveForChangesInFairValueOfFairValueThroughOtherComprehensiveIncomeFinancialAssets  (Level 3)
+      L idx-cor:ReserveOfGainsLossesFromInvestmentsInEquityInstruments  (Level 3)
+      L idx-cor:ReserveOfShareBasedPayments  (Level 3)
+      L idx-cor:ReserveOfCashFlowHedges  (Level 3)
+      L idx-cor:ReserveOfRemeasurementsOfDefinedBenefitPlans  (Level 3)
+      L idx-cor:OtherReserves  (Level 3)
+      L idx-cor:DifferenceDueToChangesOfEquityInSubsidiaryAssociates  (Level 3)
+      L idx-cor:OtherComponentsOfEquity 
            77,590 
-         ) (Level 3)
-      L Saldo laba (akumulasi kerugian)  (Value None) (Level 3)
-        L Saldo laba yang telah ditentukan penggunaannya (Value 
+          (Level 3)
+      L Saldo laba (akumulasi kerugian)   (Level 3)
+        L idx-cor:AppropriatedRetainedEarnings 
            192,500 
-         ) (Level 4)
-        L Saldo laba yang belum ditentukan penggunaannya (Value 
+          (Level 4)
+        L idx-cor:UnappropriatedRetainedEarnings 
            16,727,788 
-         ) (Level 4)
-      L Jumlah ekuitas yang diatribusikan kepada pemilik entitas induk (Value 
+          (Level 4)
+      L idx-cor:EquityAttributableToEquityOwnersOfParentEntity 
            21,684,037 
-         ) (Level 3)
-    L Proforma ekuitas (Value ) (Level 2)
-    L Kepentingan non-pengendali (Value 
+          (Level 3)
+    L idx-cor:ProformaEquity  (Level 2)
+    L idx-cor:NonControllingInterests 
            559,184 
-         ) (Level 2)
-    L Jumlah ekuitas (Value 
+          (Level 2)
+    L idx-cor:Equity 
            22,243,221 
-         ) (Level 2)
-  L Jumlah liabilitas dan ekuitas (Value 
+          (Level 2)
+  L idx-cor:LiabilitiesAndEquity 
            29,249,340 
-         ) (Level 1)
+          (Level 1)
